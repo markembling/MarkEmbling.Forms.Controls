@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MarkEmbling.Utils.Forms.Events;
+using System;
 using System.Collections;
 using System.ComponentModel;
 using System.Drawing;
@@ -6,7 +7,8 @@ using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace MarkEmbling.Utils.Forms.Controls {
+namespace MarkEmbling.Utils.Forms
+{
     /*
      * Windows Forms Gauge control.
      * Very heavily based on/derived from AGauge by A.J.Bauer and improved on by Code Artist.
@@ -1279,30 +1281,6 @@ namespace MarkEmbling.Utils.Forms.Controls {
                 index++;
             };
             return prefix + index;
-        }
-    }
-
-
-    public class ValueInRangeChangedEventArgs : EventArgs {
-        /// <summary>
-        /// GaugeRange affected by this event.
-        /// </summary>
-        public GaugeRange Range { get; private set; }
-
-        /// <summary>
-        /// Gauge value
-        /// </summary>
-        public float Value { get; private set; }
-
-        /// <summary>
-        /// Whether or not the value is within this range (have we entered it or left it?)
-        /// </summary>
-        public bool InRange { get; private set; }
-
-        public ValueInRangeChangedEventArgs(GaugeRange range, Single value, bool inRange) {
-            Range = range;
-            Value = value;
-            InRange = inRange;
         }
     }
 }

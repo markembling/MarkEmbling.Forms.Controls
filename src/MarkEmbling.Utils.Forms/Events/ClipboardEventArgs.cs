@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace MarkEmbling.Utils.Forms {
+namespace MarkEmbling.Utils.Forms.Events {
     /// <summary>
     /// Provides data for clipboard-centric events.
     /// </summary>

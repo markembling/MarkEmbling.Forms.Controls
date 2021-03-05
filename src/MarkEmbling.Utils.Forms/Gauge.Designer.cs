@@ -1,4 +1,4 @@
-﻿namespace MarkEmbling.Utils.Forms.Controls {
+﻿namespace MarkEmbling.Utils.Forms {
     partial class Gauge {
         /// <summary>
         /// Required designer variable.

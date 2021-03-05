@@ -96,8 +96,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MarkEmbling.Utils.Forms\MarkEmbling.Utils.Forms.csproj">
-      <Project>{b3e52c81-aec0-4ffb-aecb-ae48b3d31475}</Project>
+    <ProjectReference Include="..\..\src\MarkEmbling.Utils.Forms\MarkEmbling.Utils.Forms.csproj">
+      <Project>{5b16f105-615a-4730-b9ef-2706f8adbc3b}</Project>
       <Name>MarkEmbling.Utils.Forms</Name>
     </ProjectReference>
   </ItemGroup>

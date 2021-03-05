@@ -1,4 +1,7 @@
-﻿namespace MarkEmbling.Utils.Forms.Examples {
+﻿using MarkEmbling.Utils.Forms.Controls;
+
+namespace MarkEmbling.Forms.Controls.ExampleApp
+{
     partial class GaugeForm {
         /// <summary>
         /// Required designer variable.
@@ -23,9 +26,9 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            MarkEmbling.Utils.Forms.GaugeRange gaugeRange1 = new MarkEmbling.Utils.Forms.GaugeRange();
-            MarkEmbling.Utils.Forms.GaugeRange gaugeRange2 = new MarkEmbling.Utils.Forms.GaugeRange();
-            this.gauge1 = new MarkEmbling.Utils.Forms.Gauge();
+            MarkEmbling.Utils.Forms.Controls.GaugeRange gaugeRange1 = new MarkEmbling.Utils.Forms.Controls.GaugeRange();
+            MarkEmbling.Utils.Forms.Controls.GaugeRange gaugeRange2 = new MarkEmbling.Utils.Forms.Controls.GaugeRange();
+            this.gauge1 = new MarkEmbling.Utils.Forms.Controls.Gauge();
             this.trackBar1 = new System.Windows.Forms.TrackBar();
             this.valueLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
@@ -62,7 +65,7 @@
             this.gauge1.NeedleColor1 = System.Drawing.Color.Gray;
             this.gauge1.NeedleColor2 = System.Drawing.Color.DimGray;
             this.gauge1.NeedleRadius = 80;
-            this.gauge1.NeedleType = MarkEmbling.Utils.Forms.NeedleType.Simple;
+            this.gauge1.NeedleType = MarkEmbling.Utils.Forms.Controls.NeedleType.Simple;
             this.gauge1.NeedleWidth = 2;
             this.gauge1.ScaleLinesInterColor = System.Drawing.Color.DimGray;
             this.gauge1.ScaleLinesInterInnerRadius = 73;
@@ -89,7 +92,7 @@
             this.gauge1.Text = "gauge1";
             this.gauge1.Value = 0F;
             this.gauge1.ValueChanged += new System.EventHandler(this.gauge1_ValueChanged);
-            this.gauge1.ValueInRangeChanged += new System.EventHandler<MarkEmbling.Utils.Forms.Events.ValueInRangeChangedEventArgs>(this.gauge1_ValueInRangeChanged);
+            this.gauge1.ValueInRangeChanged += new System.EventHandler<MarkEmbling.Utils.Forms.Controls.ValueInRangeChangedEventArgs>(this.gauge1_ValueInRangeChanged);
             // 
             // trackBar1
             // 

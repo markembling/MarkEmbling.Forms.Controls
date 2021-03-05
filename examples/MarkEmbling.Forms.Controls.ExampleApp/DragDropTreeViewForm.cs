@@ -1,15 +1,10 @@
-﻿using MarkEmbling.Utils.Forms.Events;
+﻿using MarkEmbling.Forms.Controls.Events;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MarkEmbling.Utils.Forms.Examples {
+namespace MarkEmbling.Forms.Controls.ExampleApp
+{
     /*
      * Remember to set the 'AllowDrop' property of the TreeView to true to enable
      * drag and drop functionality.

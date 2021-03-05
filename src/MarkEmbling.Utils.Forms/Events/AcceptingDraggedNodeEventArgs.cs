@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace MarkEmbling.Utils.Forms {
+namespace MarkEmbling.Utils.Forms.Events {
     public delegate void AcceptingDraggedNodeHandler(object source, AcceptingDraggedNodeEventArgs e);
 
     /// <summary>
