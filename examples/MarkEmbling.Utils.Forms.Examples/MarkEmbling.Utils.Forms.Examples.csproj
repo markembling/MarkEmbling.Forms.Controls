@@ -96,9 +96,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\MarkEmbling.Utils.Forms\MarkEmbling.Utils.Forms.csproj">
+    <ProjectReference Include="..\..\src\MarkEmbling.Forms.Controls\MarkEmbling.Forms.Controls.csproj">
       <Project>{5b16f105-615a-4730-b9ef-2706f8adbc3b}</Project>
-      <Name>MarkEmbling.Utils.Forms</Name>
+      <Name>MarkEmbling.Forms.Controls</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

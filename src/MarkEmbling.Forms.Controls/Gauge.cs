@@ -1,4 +1,4 @@
-﻿using MarkEmbling.Utils.Forms.Events;
+﻿using MarkEmbling.Forms.Controls.Events;
 using System;
 using System.Collections;
 using System.ComponentModel;
@@ -7,7 +7,7 @@ using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace MarkEmbling.Utils.Forms
+namespace MarkEmbling.Forms.Controls
 {
     /*
      * Windows Forms Gauge control.

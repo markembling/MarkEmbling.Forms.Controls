@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace MarkEmbling.Utils.Forms.Events {
+namespace MarkEmbling.Forms.Controls.Events {
     public delegate void DragDropReorganizeFinishedHandler(object source, DragDropReorganizeFinishedEventArgs e);
 
     /// <summary>

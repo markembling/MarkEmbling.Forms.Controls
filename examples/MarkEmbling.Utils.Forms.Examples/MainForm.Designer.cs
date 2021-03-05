@@ -1,4 +1,4 @@
-﻿namespace MarkEmbling.Utils.Forms.Examples {
+﻿namespace MarkEmbling.Forms.Controls.Examples {
     partial class MainForm {
         /// <summary>
         /// Required designer variable.

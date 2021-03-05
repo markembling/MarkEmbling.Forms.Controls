@@ -1,4 +1,4 @@
-﻿using MarkEmbling.Utils.Forms.Events;
+﻿using MarkEmbling.Forms.Controls.Events;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MarkEmbling.Utils.Forms.Examples {
+namespace MarkEmbling.Forms.Controls.Examples {
     public partial class GaugeForm : Form {
         public GaugeForm() {
             InitializeComponent();

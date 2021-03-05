@@ -1,4 +1,4 @@
-﻿using MarkEmbling.Utils.Forms.Events;
+﻿using MarkEmbling.Forms.Controls.Events;
 using System;
 using System.ComponentModel;
 using System.Drawing;
@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Windows.Forms;
 
-namespace MarkEmbling.Utils.Forms {
+namespace MarkEmbling.Forms.Controls {
     /// <summary>
     /// TreeView with drag and drop item reorganisation.
     /// 

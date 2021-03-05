@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkEmbling.Utils.Forms.Exa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{A846D8E3-A274-4F8E-9B4F-18C86C9C22E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkEmbling.Utils.Forms", "src\MarkEmbling.Utils.Forms\MarkEmbling.Utils.Forms.csproj", "{5B16F105-615A-4730-B9EF-2706F8ADBC3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarkEmbling.Forms.Controls", "src\MarkEmbling.Forms.Controls\MarkEmbling.Forms.Controls.csproj", "{5B16F105-615A-4730-B9EF-2706F8ADBC3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

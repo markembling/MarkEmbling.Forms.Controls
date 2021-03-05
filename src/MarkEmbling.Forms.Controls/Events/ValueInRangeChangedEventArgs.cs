@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MarkEmbling.Utils.Forms.Events
+namespace MarkEmbling.Forms.Controls.Events
 {
     public class ValueInRangeChangedEventArgs : EventArgs {
         /// <summary>

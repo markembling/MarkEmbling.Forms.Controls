@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MarkEmbling.Utils.Forms.Examples.Properties {
+namespace MarkEmbling.Forms.Controls.Examples.Properties {
 
 
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

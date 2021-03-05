@@ -1,4 +1,4 @@
-﻿namespace MarkEmbling.Utils.Forms.Examples {
+﻿namespace MarkEmbling.Forms.Controls.Examples {
     partial class DragDropTreeViewForm {
         /// <summary>
         /// Required designer variable.
@@ -31,7 +31,7 @@
             this.imageList = new System.Windows.Forms.ImageList(this.components);
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.statusLabel = new System.Windows.Forms.ToolStripStatusLabel();
-            this.treeView = new MarkEmbling.Utils.Forms.DragDropTreeView();
+            this.treeView = new MarkEmbling.Forms.Controls.DragDropTreeView();
             this.statusStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -98,8 +98,8 @@
             this.treeView.Size = new System.Drawing.Size(468, 354);
             this.treeView.TabIndex = 0;
             this.treeView.UseNativeAppearance = true;
-            this.treeView.AcceptingDraggedNode += new MarkEmbling.Utils.Forms.Events.AcceptingDraggedNodeHandler(this.treeView_AcceptingDraggedNode);
-            this.treeView.DragDropReorganizeFinished += new MarkEmbling.Utils.Forms.Events.DragDropReorganizeFinishedHandler(this.treeView_DragDropReorganizeFinished);
+            this.treeView.AcceptingDraggedNode += new MarkEmbling.Forms.Controls.Events.AcceptingDraggedNodeHandler(this.treeView_AcceptingDraggedNode);
+            this.treeView.DragDropReorganizeFinished += new MarkEmbling.Forms.Controls.Events.DragDropReorganizeFinishedHandler(this.treeView_DragDropReorganizeFinished);
             // 
             // DragDropTreeViewForm
             // 
@@ -124,7 +124,7 @@
 
         #endregion
 
-        private MarkEmbling.Utils.Forms.DragDropTreeView treeView;
+        private MarkEmbling.Forms.Controls.DragDropTreeView treeView;
         private System.Windows.Forms.Button addFolderButton;
         private System.Windows.Forms.Button addLeafButton;
         private System.Windows.Forms.Button removeNodeButton;

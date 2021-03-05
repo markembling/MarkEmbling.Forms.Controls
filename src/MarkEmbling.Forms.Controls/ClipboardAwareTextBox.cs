@@ -1,8 +1,8 @@
-﻿using MarkEmbling.Utils.Forms.Events;
+﻿using MarkEmbling.Forms.Controls.Events;
 using System.ComponentModel;
 using System.Windows.Forms;
 
-namespace MarkEmbling.Utils.Forms
+namespace MarkEmbling.Forms.Controls
 {
     /*
      * Thanks to the following for pointers, advice and examples:

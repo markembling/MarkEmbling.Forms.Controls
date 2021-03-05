@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
-namespace MarkEmbling.Utils.Forms {
+namespace MarkEmbling.Forms.Controls {
     /// <summary>
     /// Enhanced version of the TreeView control which allows use of the native Explorer-style
     /// appearance.
