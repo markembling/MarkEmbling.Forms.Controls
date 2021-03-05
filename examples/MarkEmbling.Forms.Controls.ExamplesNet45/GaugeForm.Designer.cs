@@ -1,4 +1,4 @@
-﻿namespace MarkEmbling.Forms.Controls.Examples {
+﻿namespace MarkEmbling.Forms.Controls.ExamplesNet45 {
     partial class GaugeForm {
         /// <summary>
         /// Required designer variable.

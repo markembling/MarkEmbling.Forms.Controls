@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MarkEmbling.Forms.Controls.Examples")]
+[assembly: AssemblyTitle("MarkEmbling.Forms.Controls.ExamplesNet45")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("MarkEmbling.Forms.Controls.Examples")]
-[assembly: AssemblyCopyright("Copyright ©  2013")]
+[assembly: AssemblyProduct("MarkEmbling.Forms.Controls.ExamplesNet45")]
+[assembly: AssemblyCopyright("Copyright © Mark Embling")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

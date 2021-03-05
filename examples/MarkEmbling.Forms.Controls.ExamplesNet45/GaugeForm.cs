@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MarkEmbling.Forms.Controls.Examples {
+namespace MarkEmbling.Forms.Controls.ExamplesNet45 {
     public partial class GaugeForm : Form {
         public GaugeForm() {
             InitializeComponent();

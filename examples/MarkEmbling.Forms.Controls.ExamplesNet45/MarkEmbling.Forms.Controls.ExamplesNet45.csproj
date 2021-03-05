@@ -7,8 +7,8 @@
     <ProjectGuid>{62A043E2-B20A-468A-9EB3-4ACD9ED4F2A3}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MarkEmbling.Utils.Forms.Examples</RootNamespace>
-    <AssemblyName>MarkEmbling.Utils.Forms.Examples</AssemblyName>
+    <RootNamespace>MarkEmbling.Forms.Controls.ExamplesNet45</RootNamespace>
+    <AssemblyName>MarkEmbling.Forms.Controls.ExamplesNet45</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -81,6 +81,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

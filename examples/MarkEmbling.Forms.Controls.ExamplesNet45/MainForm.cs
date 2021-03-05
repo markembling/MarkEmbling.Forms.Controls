@@ -8,24 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MarkEmbling.Forms.Controls.ExampleApp
-{
-    public partial class MainForm : Form
-    {
-        public MainForm()
-        {
+namespace MarkEmbling.Forms.Controls.ExamplesNet45 {
+    public partial class MainForm : Form {
+        public MainForm() {
             InitializeComponent();
         }
 
-        private void closeButton_Click(object sender, EventArgs e)
-        {
+        private void closeButton_Click(object sender, EventArgs e) {
             Close();
         }
 
-        private void viewButton_Click(object sender, EventArgs e)
-        {
-            switch (examplesDropDown.SelectedIndex)
-            {
+        private void viewButton_Click(object sender, EventArgs e) {
+            switch (examplesDropDown.SelectedIndex) {
                 case 0:
                     new DragDropTreeViewForm().Show(this);
                     break;
