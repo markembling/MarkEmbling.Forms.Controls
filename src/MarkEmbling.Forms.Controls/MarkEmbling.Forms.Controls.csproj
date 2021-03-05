@@ -7,7 +7,7 @@
     <Company>Mark Embling</Company>
     <Description>A few custom controls for Windows Forms.</Description>
     <PackageProjectUrl>https://github.com/markembling/MarkEmbling.Forms.Controls</PackageProjectUrl>
-    <PackageLicenseExpression>BSD-3-CLAUSE</PackageLicenseExpression>
+    <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
     <PackageIconUrl></PackageIconUrl>
     <Copyright>Copyright © Mark Embling 2013-2021</Copyright>
     <Version>1.0.0</Version>
