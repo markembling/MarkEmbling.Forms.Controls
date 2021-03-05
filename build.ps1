@@ -3,11 +3,7 @@ Param([string[]]$tasks)
 
 # Clean all projects
 function clean {
-    $bins = Get-ChildItem -Directory -Recurse -Filter bin
-    foreach ($bin in $bins) {
-        Remove-Item $bin.FullName -Recurse -Force
-    }
-    dotnet clean --configuration "Release"
+    dotnet clean "src/MarkEmbling.Forms.Controls/MarkEmbling.Forms.Controls.csproj" --configuration "Release"
 }
 
 # Restore NuGet packages for all projects
@@ -17,7 +13,7 @@ function restore {
 
 # Build projects
 function build {
-    dotnet build --configuration "Release"
+    dotnet build "src/MarkEmbling.Forms.Controls/MarkEmbling.Forms.Controls.csproj" --configuration "Release"
 }
 
 # Execute the tests
