@@ -9,10 +9,10 @@
     <PackageProjectUrl>https://github.com/markembling/MarkEmbling.Forms.Controls</PackageProjectUrl>
     <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
     <PackageIconUrl></PackageIconUrl>
-    <Copyright>Copyright © Mark Embling 2013-2021</Copyright>
-    <Version>1.0.0</Version>
-    <AssemblyVersion>1.0.0</AssemblyVersion>
-    <FileVersion>1.0.0</FileVersion>
+    <Copyright>Copyright © Mark Embling 2013-2022</Copyright>
+    <Version>2.0.0</Version>
+    <AssemblyVersion>2.0.0</AssemblyVersion>
+    <FileVersion>2.0.0</FileVersion>
     <PackageIcon>icon.png</PackageIcon>
   </PropertyGroup>
 
