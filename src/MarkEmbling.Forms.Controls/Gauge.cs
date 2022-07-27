@@ -11,7 +11,8 @@ namespace MarkEmbling.Forms.Controls
 {
     /*
      * Windows Forms Gauge control.
-     * Very heavily based on/derived from AGauge by A.J.Bauer and improved on by Code Artist.
+     * Heavily based on/derived from AGauge originally by A.J.Bauer (https://www.codeproject.com/Articles/17559/A-fast-and-performing-gauge)
+     * and improved on by Code Artist (https://www.codeproject.com/Articles/448721/AGauge-WinForms-Gauge-Control)
      */
     [DefaultEvent("ValueInRangeChanged"),
      Description("Displays a value on an analog gauge. Raises an event if the value enters one of the definable ranges.")]
