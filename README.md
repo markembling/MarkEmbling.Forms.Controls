@@ -5,7 +5,7 @@ Just a few custom controls for Windows Forms that I've used in a couple of place
 
 This package is [available on NuGet](https://www.nuget.org/packages/MarkEmbling.Forms.Controls/) and currently targets .NET 4.7.2 and .NET 5.0.
 
-This is effectively a continuation of the old `MarkEmbling.Utils.Forms` but with a slighty better name.
+It's probably better to look at a more modern solution for desktop apps going forward. However this is still maintained on an as-needed basis to service existing dependent Windows Forms projects.
 
 ### Controls
 
@@ -22,3 +22,15 @@ This is effectively a continuation of the old `MarkEmbling.Utils.Forms` but with
 
 A little Windows Forms app which demos some of the controls can be found in `MarkEmbling.Forms.Controls.ExamplesNet472`. 
 It's not very comprehensive and targets .NET Framework 4.7.2 (you probably guessed that already).
+
+### Changes
+
+#### Version 2.0.0
+
+ - Move from targeting .NET Framework 4.5 to .NET Framework 4.7.2.
+ - Update Gauge to render correctly in a high DPI environment.
+
+#### Version 1.0.0
+
+ - Initial version of package. Effectively a continuation of the old `MarkEmbling.Utils.Forms` but with a slighty better name.
+
