@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net5.0-windows;net45</TargetFrameworks>
+    <TargetFrameworks>net5.0-windows;net472</TargetFrameworks>
     <UseWindowsForms>true</UseWindowsForms>
     <Authors>Mark Embling</Authors>
     <Company>Mark Embling</Company>

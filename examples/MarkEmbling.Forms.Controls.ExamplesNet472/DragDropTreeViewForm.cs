@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MarkEmbling.Forms.Controls.ExamplesNet45 {
+namespace MarkEmbling.Forms.Controls.ExamplesNet472 {
     /*
      * Remember to set the 'AllowDrop' property of the TreeView to true to enable
      * drag and drop functionality.

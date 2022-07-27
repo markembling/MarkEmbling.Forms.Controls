@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31025.194
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{13B7AC91-518F-4AF2-90AF-B59FD503D28C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkEmbling.Forms.Controls.ExamplesNet45", "examples\MarkEmbling.Forms.Controls.ExamplesNet45\MarkEmbling.Forms.Controls.ExamplesNet45.csproj", "{62A043E2-B20A-468A-9EB3-4ACD9ED4F2A3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkEmbling.Forms.Controls.ExamplesNet472", "examples\MarkEmbling.Forms.Controls.ExamplesNet472\MarkEmbling.Forms.Controls.ExamplesNet472.csproj", "{62A043E2-B20A-468A-9EB3-4ACD9ED4F2A3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{A846D8E3-A274-4F8E-9B4F-18C86C9C22E8}"
 EndProject
